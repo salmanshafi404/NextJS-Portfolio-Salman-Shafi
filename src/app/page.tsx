@@ -75,8 +75,8 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Salman Shafi",
-    "jobTitle": "System Administrator & DNS Expert",
-    "description": "Professional System Administrator and DNS Expert from Bogura, Bangladesh. Specialized in Nginx, Apache, RHEL, Technitium DNS, and NS1.",
+    "jobTitle": "System Administrator",
+    "description": "Professional System Administrator from Bogura, Bangladesh. Specialized in Nginx, Apache, RHEL, Technitium DNS, and NS1.",
     "url": "https://salmanshafi.net",
     "image": "https://salmanshafi.net/photo.webp",
     "address": {
@@ -93,7 +93,7 @@ export default function Home() {
       "Apache",
       "RHEL",
       "Technitium DNS",
-      "NS1",
+      "BIND",
       "Server Management",
       "Infrastructure",
       "Web Server Configuration"
@@ -103,8 +103,8 @@ export default function Home() {
       "name": "Freelance"
     },
     "sameAs": [
-      "https://linkedin.com/in/salmanshafi",
-      "https://github.com/salmanshafi"
+      "https://linkedin.com/in/salmanshafi404",
+      "https://github.com/salmanshafi404"
     ]
   };
 
@@ -374,19 +374,19 @@ export default function Home() {
               {
                 icon: <Server size={40} />,
                 title: "Web Servers",
-                skills: ["Nginx", "Apache", "Load Balancing", "SSL/TLS"],
+                skills: ["Nginx", "Apache", "Caddy", "Litespeed"],
                 gradient: "bg-premium-blue"
               },
               {
                 icon: <Terminal size={40} />,
                 title: "Operating Systems",
-                skills: ["RHEL", "Linux Administration", "Shell Scripting", "System Monitoring"],
+                skills: ["RHEL", "Debian", "Ubuntu", "Alpine"],
                 gradient: "bg-premium-gradient"
               },
               {
                 icon: <Globe size={40} />,
                 title: "DNS Management",
-                skills: ["Technitium DNS", "NS1", "DNS Configuration", "Performance Tuning"],
+                skills: ["Technitium DNS", "BIND", "Knot", "PowerDNS" "Unbound" "DNS Configuration"],
                 gradient: "bg-premium-purple"
               },
               {
@@ -463,7 +463,7 @@ export default function Home() {
                   title: "Web Server Specialist",
                   period: "Previous Experience",
                   description: "Configured and maintained high-performance web servers using Nginx and Apache. Implemented load balancing solutions and optimized server configurations.",
-                  skills: ["Nginx", "Apache", "Load Balancing", "SSL Configuration"],
+                  skills: ["Nginx", "Apache", "Caddy", "Litespeed", "Web Server Configuration"],
                   current: false
                 },
                 {
