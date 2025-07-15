@@ -2,7 +2,6 @@
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
   "framework": "nextjs",
-  "regions": ["sin1", "hnd1", "iad1"],
   "functions": {
     "src/app/api/contact/route.ts": {
       "maxDuration": 10
@@ -57,7 +56,7 @@
       ]
     },
     {
-      "source": "/(.*)\\.(ico|png|jpg|jpeg|gif|webp|svg|woff|woff2|ttf|eot)",
+      "source": "/.*\\.(ico|png|jpg|jpeg|gif|webp|svg|woff|woff2|ttf|eot)",
       "headers": [
         {
           "key": "Cache-Control",
