@@ -1,0 +1,54 @@
+{
+  "name": "nextjs-portfolio-system-admins",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium portfolio website built with Next.js 15 for System Administrators",
+  "keywords": ["portfolio", "nextjs", "typescript", "tailwindcss", "vercel", "contact-form", "system-admin"],
+  "author": "Mehedi <hello@mehedims.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asma019/Next.js-Portfolio-for-System-Admins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asma019/Next.js-Portfolio-for-System-Admins/issues"
+  },
+  "homepage": "https://github.com/asma019/Next.js-Portfolio-for-System-Admins",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf .next && rm -rf node_modules/.cache",
+    "setup": "npm install && cp .env.example .env.local",
+    "deploy": "npm run build && vercel --prod"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.5",
+    "lucide-react": "^0.525.0",
+    "next": "15.4.1",
+    "nodemailer": "^6.9.15",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.19",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="/photo.webp"/>
+      <square150x150logo src="/photo.webp"/>
+      <square310x310logo src="/photo.webp"/>
+      <wide310x150logo src="/share.webp"/>
+      <TileColor>#3b82f6</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig> 

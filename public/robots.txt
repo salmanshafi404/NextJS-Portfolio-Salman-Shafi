@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or private directories (if any)
+Disallow: /api/
+Disallow: /_next/static/
+Disallow: /.next/
+
+# Sitemap location
+Sitemap: https://salmanshafi.net/sitemap.xml
+
+# Crawl-delay (optional, remove if not needed)
+Crawl-delay: 1 
