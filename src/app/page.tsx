@@ -157,7 +157,7 @@ export default function Home() {
                   </span>
                 </h1>
                 <h2 className="text-lg sm:text-xl md:text-2xl text-gray-600 font-light">
-                  System Administrator & DNS Expert
+                  System Administrator
                 </h2>
               </div>
 
@@ -386,7 +386,7 @@ export default function Home() {
               {
                 icon: <Globe size={40} />,
                 title: "DNS Management",
-                skills: ["Technitium DNS", "BIND", "Knot", "PowerDNS" "Unbound" "DNS Configuration"],
+                skills: ["Technitium DNS", "BIND", "Knot", "PowerDNS", "Unbound", "DNS Configuration"],
                 gradient: "bg-premium-purple"
               },
               {
