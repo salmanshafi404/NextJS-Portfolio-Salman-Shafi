@@ -76,7 +76,7 @@ export default function Home() {
     "@type": "Person",
     "name": "Salman Shafi",
     "jobTitle": "System Administrator",
-    "description": "Professional System Administrator from Bogura, Bangladesh. Specialized in Nginx, Apache, RHEL, Technitium DNS, and NS1.",
+    "description": "Professional System Administrator from Bogura, Bangladesh.",
     "url": "https://salmanshafi.net",
     "image": "https://salmanshafi.net/photo.webp",
     "address": {
@@ -233,11 +233,12 @@ export default function Home() {
                       {/* Profile Photo */}
                                             <Image 
                         src="/photo.webp" 
-                        alt="Salman Shafi - System Administrator & DNS Expert"
+                        alt="Salman Shafi - System Administrator"
                         width={320}
                         height={320}
-                        className="w-full h-full object-cover object-center rounded-full" 
-                        priority
+                        className="w-full h-full object-cover object-center rounded-full"
+                        priority 
+                        fetchPriority="high"
                       />
                     </div>
                   </div>
@@ -274,7 +275,7 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl heading-premium mb-4 sm:mb-6">About Me</h2>
-            <p className="text-lg sm:text-xl md:text-2xl text-premium mb-6 sm:mb-8">Student & System Administration Expert</p>
+            <p className="text-lg sm:text-xl md:text-2xl text-premium mb-6 sm:mb-8">Student & System Administrator</p>
             <div className="divider-premium"></div>
           </motion.div>
           
@@ -335,7 +336,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-2 sm:mb-3">DNS Optimization</h4>
-                    <p className="text-premium text-sm sm:text-base md:text-lg">Specialized in DNS server configuration, optimization, and troubleshooting using Technitium DNS and NS1 platforms.</p>
+                    <p className="text-premium text-sm sm:text-base md:text-lg">Specialized in DNS server configuration, optimization, and troubleshooting using Technitium,BIND,Knot,Etc DNS.</p>
                   </div>
                 </div>
                 
